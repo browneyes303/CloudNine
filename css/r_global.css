@@ -1,0 +1,123 @@
+/* black - #000000  
+navy - #001427
+yellow - #F4D58D  
+light gray - #E5E5E5 
+white = #FFFFFF
+red = #BF0603 (accent)
+maroon =  8D0801 */
+
+body{
+    font-family: 'Patua One', cursive;
+}
+
+/* background colors */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-navy{
+    background-color: #001427;
+}
+
+.bg-accent{
+    background-color: #BF0603;
+}
+
+.bg-lightGreen{
+    background-color: #708d81;
+}
+
+/* font colors */
+
+.text-black{
+    color: black;
+}
+
+.text-navy{
+    color: #001427;
+}
+
+.text-accent{
+    color: #BF0603;
+}
+
+.text-lightGreen{
+    color: #708d81;
+}
+
+.text-yellow{
+    color: #f4d58d;
+}
+
+/* anchor/hover colors */
+
+.text-yellow a{
+    color: #f4d58d;
+}
+
+.text-yellow a:hover{
+    color: #BF0603;
+}
+
+.text-yellow :visited{
+    color: #f4d58d;
+}
+
+.text-black a{
+    color: black;
+}
+
+.text-black a:hover{
+    color: #BF0603;
+}
+
+.bg-black :hover{
+    background-color: black;
+}
+
+/* Page Sections */
+
+.ps-light{
+    background: whitesmoke;
+    height: 550px;
+    width: 100%;
+}
+
+.ps-dark{
+    background: lightgrey;
+    /* height: 550px; */
+    width: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/outdoorDeck.png");
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/skiLift.jpeg");
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon{
+    font-size: medium;
+}
