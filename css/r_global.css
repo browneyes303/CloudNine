@@ -1,7 +1,7 @@
-/* black - #000000  
+/* black - #000000
 navy - #001427
-yellow - #F4D58D  
-light gray - #E5E5E5 
+yellow - #F4D58D
+light gray - #E5E5E5
 white = #FFFFFF
 red = #BF0603 (accent)
 maroon =  8D0801 */
@@ -120,4 +120,16 @@ body{
 
 .icon{
     font-size: medium;
+}
+
+#headerImage {
+    background-size: cover;
+    min-height: 50vh;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+@media (max-width: 768px) {
+    #headerImage {
+        min-height: 30vh;
+    }
 }
